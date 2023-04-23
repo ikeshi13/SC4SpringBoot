@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../static/css/common.css" th:href="@{/css/common.css}">
+<link rel="stylesheet" href="../static/css/login.css" th:href="@{/css/employeeRegist.css}">
+<title>ホーム画面</title>
+</head>
+<body>
+    <h2>ホーム画面</h2>
+    <div class="div-input-form">
+    	<div class="div-input-area">
+            <p th:text= "'ログインユーザー:' + ${username}"></p>
+   		</div>
+   		<a href="employeeRegist">新規登録</a>
+   		<a href="employeeSearch">ユーザー検索</a>
+<!--    		<form action="/employeeRegist">
+    		<input type="submit" value="新規登録" />
+		</form>
+		<form action="/employeeSearch">
+    		<input type="submit" value="ユーザー検索" />
+		</form> -->
+    </div>
+</body>
+</html>

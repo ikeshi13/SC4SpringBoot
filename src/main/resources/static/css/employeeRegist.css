@@ -1,0 +1,146 @@
+.error-label {
+  color: red;
+}
+
+.common-btn-base {
+  color: white;
+  width: 100px;
+  height: 30px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: solid 0;
+  cursor: pointer;
+}
+
+.common-btn-base-hover {
+  background: #5881ba;
+}
+
+.common-btn-base-active {
+  -ms-transform: translateY(3px);
+  -webkit-transform: translateY(3px);
+  transform: translateY(3px);
+  box-shadow: none;
+}
+
+.common-btn-blue {
+  background: #3f72b8;
+  box-shadow: 0px 3px 0px #4b5f89;
+  text-shadow: 1px 2px 1px #4b5f89;
+}
+
+.common-btn-disabled {
+  background: #d8d8d8;
+  box-shadow: 0px 3px 0px #bdbdbd;
+  text-shadow: 1px 2px 1px #bfbfbf;
+}
+
+.common-underline {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.common-underline-hover {
+  color: #7777ff;
+}
+
+body {
+  max-width: 448px;
+  width: 100%;
+  margin: auto;
+}
+
+body h2 {
+  color: #424242;
+}
+
+body .div-input-form {
+  max-width: 414px;
+  color: #424242;
+  background: #fcfcfc;
+  padding: 10px;
+  border-radius: 5px;
+  border: solid 0 lightgrey;
+  box-shadow: 0px 4px 10px lightgrey;
+}
+
+body .div-input-form .div-input-area {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 10px;
+  font-size: 16px;
+}
+
+body .div-input-form .div-input-area div .common-form-format {
+  font-size: 16px;
+  border: solid 1px #ccc;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+body .div-input-form .div-input-area div input {
+  font-size: 16px;
+  border: solid 1px #ccc;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  width: 100%;
+  max-width: 99%;
+  height: 20px;
+}
+
+body .div-input-form .div-input-area div textarea {
+  font-size: 16px;
+  border: solid 1px #ccc;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  min-width: 98.5%;
+  max-width: 98.5%;
+  min-height: 20px;
+  max-height: 160px;
+}
+
+body .div-input-form .div-btn-regist-area {
+  text-align: right;
+}
+
+body .div-input-form .div-btn-regist-area .btn-regist {
+  color: white;
+  width: 100px;
+  height: 30px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: solid 0;
+  cursor: pointer;
+  background: #3f72b8;
+  box-shadow: 0px 3px 0px #4b5f89;
+  text-shadow: 1px 2px 1px #4b5f89;
+}
+
+body .div-input-form .div-btn-regist-area .btn-regist:hover {
+  background: #5881ba;
+}
+
+body .div-input-form .div-btn-regist-area .btn-regist:active {
+  -ms-transform: translateY(3px);
+  -webkit-transform: translateY(3px);
+  transform: translateY(3px);
+  box-shadow: none;
+}
+
+body .btn-back-search {
+  font-size: 16px;
+  background: rgba(0, 0, 0, 0);
+  border: none;
+}
+
+body .btn-back-search .underline {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+body .btn-back-search .underline:hover {
+  color: #7777ff;
+}
